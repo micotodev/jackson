@@ -32,7 +32,7 @@ export interface SAMLSSOConnectionWithEncodedMetadata extends SAMLSSOConnection 
   metadataUrl?: string;
 }
 
-interface OIDCSSOConnection extends SSOConnection {
+export interface OIDCSSOConnection extends SSOConnection {
   oidcClientId: string;
   oidcClientSecret: string;
 }
